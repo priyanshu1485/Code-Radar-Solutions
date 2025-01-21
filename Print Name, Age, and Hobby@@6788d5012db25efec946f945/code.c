@@ -5,9 +5,9 @@ int main() {
     char p[20];
     printf("");
     scanf("%S %d %s",&s,&a,&p);
-    printf("name: %s");
-    printf("age: %d");
-    printf("hobby: %s");
+    printf("name: %s\n");
+    printf("age: %d\n");
+    printf("hobby: %s\n");
 
     return 0;
 }
