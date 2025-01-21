@@ -9,5 +9,5 @@ int main() {
     printf("age: %d\n",a);
     printf("hobby: %s\n",p);
 
-    return 0;
+    // return 0;
 }
