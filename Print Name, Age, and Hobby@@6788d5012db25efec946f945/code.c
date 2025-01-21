@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main() {
     int a;
-    char s[20],p[20];
+    char s[20];
+    char p[20];
     printf("");
     scanf("%S %d %s",&s,&a,&p);
     printf("name: %s");
