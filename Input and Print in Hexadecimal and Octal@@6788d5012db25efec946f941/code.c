@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    float a;
+    int a;
     printf("");
     scanf("%d",&a);
     printf("Hexadecimal: %x\n",a);
