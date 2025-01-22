@@ -10,5 +10,8 @@ int main() {
     else if a<0{
         printf("True");
     }
+    else{
+        printf("zero");
+    }
     return 0;
 }
