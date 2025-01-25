@@ -5,9 +5,9 @@ int main() {
         printf("Even");
     }
     else if(a==0){
-        printf("Odd");
+        printf(''Odd');
     }else{
-        printf("Odd");
+        printf('Odd');
     }
     return 0;
 }
