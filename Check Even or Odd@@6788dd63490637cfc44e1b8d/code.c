@@ -2,10 +2,10 @@
 int main() {
     int a;
     if(a%2==0){
-        printf('Even');
+        printf("Even\n");
     }
     else{
-        printf('Odd');
+        printf("Odd\n");
     }
     return 0;
 }
