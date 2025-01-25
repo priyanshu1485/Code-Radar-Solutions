@@ -2,13 +2,11 @@
 int main() {
     int a,b;
     scanf("%d %d",&a,%d);
-    if (b^2==a){
+    if (b*b==a){
         printf("Yes");
     }
     else{
         printf("No");
     }
-
-
     return 0;
 }
