@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {
+    int a,b;
+    2scanf("%d %d ",&a,&b);
+    if (a==b){
+        printf("Equal");
+    }
+    else if(a>b){
+        printf("Frist");
+    }else{
+        printf("Second");
+    }
+    return 0;
+}
