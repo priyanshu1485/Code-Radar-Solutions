@@ -4,10 +4,8 @@ int main() {
     if(a%2==0){
         printf("Even");
     }
-    else if(a==0){
-        printf(''Odd');
-    }else{
-        printf('Odd');
+    else{
+        printf("Odd");
     }
     return 0;
 }
