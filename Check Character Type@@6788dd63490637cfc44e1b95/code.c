@@ -3,7 +3,7 @@
 int main() {
     char a;
     scanf("%c"&a);
-    if (a=="AEIOUaeiou"){
+    if (a=='AEIOUaeiou'){
         printf("Vowel");
     }
     else {
