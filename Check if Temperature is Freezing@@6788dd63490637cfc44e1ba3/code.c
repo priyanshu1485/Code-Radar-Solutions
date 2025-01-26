@@ -7,3 +7,4 @@ int main() {
     printf("Freezing");
     return 0;
 }
+}
