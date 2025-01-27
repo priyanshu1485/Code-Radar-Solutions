@@ -6,19 +6,19 @@ int main() {
     scanf("%c", &operator);
     
     switch (operator){
-        case '+':
+    case '+':
         printf("%d",a+b);
         break;
 
-        case '-':
+    case '-':
         printf("%d", a-b);
         break;
 
-        case '*':
+     case '*':
         printf("%d", a*b);
         break;
 
-        case '/':
+    case '/':
         if (b == 0){
             printf("Error: Cannot divide by zero");
         }
@@ -26,7 +26,7 @@ int main() {
             printf("%d", a/b);
         }
         break;
-        default:
+    default:
         printf("Invalid character!")
     }
     return 0;
