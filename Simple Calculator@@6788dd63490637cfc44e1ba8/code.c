@@ -8,15 +8,15 @@ int main() {
     
     switch (o){
     case '+':
-        printf("%d",a+b);
+        printf("%d + %d = %d\n",a,b,a+b);
         break;
 
     case '-':
-        printf("%d", a-b);
+        printf("%d-%d = %d\n",a,b a-b);
         break;
 
      case '*':
-        printf("%d", a*b);
+        printf("%d*%d = %d\n",a,b a*b);
         break;
 
     case '/':
@@ -24,7 +24,7 @@ int main() {
             printf("Error: Cannot divide by zero");
         }
         else{
-            printf("%d", a/b);
+            printf("%d/%d = %d\n",a,b, a/b);
         }
         break;
     default:
