@@ -8,5 +8,26 @@ int main() {
     switch (c){
         case '+':
         printf("%d",a+b);
+        break;
+
+        case '-':
+        printf("%d", a-b);
+        break;
+
+        case '*':
+        printf("%d", a*b);
+        break;
+
+        case '/':
+        if (b == 0){
+            printf("Cannot divide by zero");
+        }
+        else{
+            printf("%d", a/b);
+        }
+        break;
+        default:
+        printf("Invalid character!")
     }
+    return 0;
 }
