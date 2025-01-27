@@ -20,7 +20,7 @@ int main() {
 
         case '/':
         if (b == 0){
-            printf("Cannot divide by zero");
+            printf("Error: Cannot divide by zero");
         }
         else{
             printf("%d", a/b);
@@ -29,5 +29,5 @@ int main() {
         default:
         printf("Invalid character!")
     }
-    return 0;
+        return 0;
 }
