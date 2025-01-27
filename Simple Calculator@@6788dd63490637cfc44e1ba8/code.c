@@ -4,21 +4,9 @@ int main() {
     char c;
     scanf("%d %d",&a,&b);
     scanf("%c", &c);
-    if (c=='+'){
+    
+    switch (c){
+        case '+':
         printf("%d",a+b);
     }
-    else if (c=='-'){
-        printf("%d",a-b);
-    }
-    else if(c=='*'){
-        printf("%d",a*b);
-    }else if(c=='/'){
-        if(b!=0){
-            printf("%d",a/b);
-        }
-    }else{
-        printf("error");
-    }
-
-    return 0;
 }
