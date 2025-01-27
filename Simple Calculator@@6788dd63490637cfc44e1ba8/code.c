@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main() {
     int a,b;
-    char Operator;
+    char operator;
     scanf("%d %d",&a,&b);
-    scanf(" %c", &c);
+    scanf(" %c", &operator);
     
-    switch (Operator){
+    switch (operator){
         case '+':
         printf("%d",a+b);
         break;
