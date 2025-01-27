@@ -14,7 +14,7 @@ int main() {
     else if(a=='D'){
         printf("Below");
     }
-    else if (a=='f'){
+    else if (a=='F'){
         printf("Fail");
     }
     else{
