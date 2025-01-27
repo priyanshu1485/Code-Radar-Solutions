@@ -3,7 +3,7 @@ int main() {
     int a,b;
     char c;
     scanf("%d %d",&a,&b);
-    scanf("%c", &c);
+    scanf(" %c", &c);
     
     switch (c){
         case '+':
@@ -29,5 +29,5 @@ int main() {
         default:
         printf("Invalid character!")
     }
-        return 0;
+    return 0;
 }
