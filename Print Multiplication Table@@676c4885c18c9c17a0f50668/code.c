@@ -7,6 +7,7 @@ int main() {
     b=1;
     while(b<11){
         printf("%d %c %d %c %d",a,c,b,d,a*b);
+        b++;
     }
     return 0;
 }
