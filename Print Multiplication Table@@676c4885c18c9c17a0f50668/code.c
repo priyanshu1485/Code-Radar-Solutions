@@ -6,7 +6,7 @@ int main() {
     scanf("%d",&a);
     b=1;
     while(b<11){
-        printf("%d %c %d %c %d",a,c,b,d,a*b);
+        printf("%d %c %d %c %d\n",a,c,b,d,a*b);
         b++;
     }
     return 0;
