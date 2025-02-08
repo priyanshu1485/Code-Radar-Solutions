@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() {
     int a,b;
-    char c="x";
-    char d="="
+    char c='x';
+    char d='=';
     scanf(%d,&a);
     b=1;
     while(b<11){
