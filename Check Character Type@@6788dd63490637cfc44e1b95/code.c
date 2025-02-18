@@ -5,7 +5,7 @@ int main() {
     char ch;
 
     // Input a single character
-    printf("Enter a character: ");
+    printf("");
     scanf("%c", &ch);
 
     // Check if the character is a vowel or consonant
