@@ -21,9 +21,9 @@ int main() {
 
     // If count is 2, the number is prime (it only has 1 and itself as divisors)
     if (count == 2) {
-        printf("%d is a prime number.\n", num);
+        printf("Prime", num);
     } else {
-        printf("%d is not a prime number.\n", num);
+        printf("Not Prime", num);
     }
 
     return 0;
