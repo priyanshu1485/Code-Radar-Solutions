@@ -1,13 +1,30 @@
 #include <stdio.h>
+#include <ctype.h>  // For isdigit() and tolower() functions
 
 int main() {
-    char a;
-    scanf("%c"&a);
-    if (a=='a'|| a=='e' ||'i' || a=='o' || a=='u' || a=='A') || a=='E' || a=='I'|| a=='O'|| a=='U'{
-        printf("Vowel");
+    char ch;
+
+    // Input a single character
+    printf("Enter a character: ");
+    scanf("%c", &ch);
+
+    // Check if the character is a vowel or consonant
+    if (isalpha(ch)) {
+        char lowerCh = tolower(ch);  // Convert to lowercase for easier comparison
+        if (lowerCh == 'a' || lowerCh == 'e' || lowerCh == 'i' || lowerCh == 'o' || lowerCh == 'u') {
+            printf("Vowel\n");
+        } else {
+            printf("Consonant\n");
+        }
     }
+    // Check if the character is a digit
+    else if (isdigit(ch)) {
+        printf("Digit\n");
+    }
+    // If it's not a letter or digit, it's a special character
     else {
-        printf("Consonant");
-    } 
+        printf("Special Character\n");
+    }
+
     return 0;
 }
