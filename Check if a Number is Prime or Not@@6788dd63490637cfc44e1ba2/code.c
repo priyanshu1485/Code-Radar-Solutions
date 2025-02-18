@@ -3,12 +3,11 @@
 int main() {
     int num, i, count = 0;
     
-    printf("Enter a number: ");
     scanf("%d", &num);
     
     // Prime numbers are greater than 1
     if (num <= 1) {
-        printf("%d is not a prime number.\n", num);
+        printf("Not Prime", num);
         return 0;
     }
 
