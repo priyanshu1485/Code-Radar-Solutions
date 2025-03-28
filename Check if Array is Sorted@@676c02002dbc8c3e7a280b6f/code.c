@@ -11,6 +11,7 @@ int main(){
         for(int j=i+1;j<a;j++){
             if(arr[i]>=arr[j]){
                 sorted=0;
+                return 0;
                 
             }
         }
