@@ -7,7 +7,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     if (a==1){
-        printf("%d",arr[0])l
+        printf("%d",arr[0]);
     }
 
 
