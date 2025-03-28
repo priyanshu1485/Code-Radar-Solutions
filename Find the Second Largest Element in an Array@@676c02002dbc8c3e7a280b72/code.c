@@ -27,3 +27,4 @@ int main(){
         }
     printf("%d",arr[a-2]);
 }
+}
