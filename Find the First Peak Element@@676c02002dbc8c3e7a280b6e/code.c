@@ -13,7 +13,7 @@ int main(){
         }
 
     }
-    if (arr[a-1]){
+    if (arr[a-1]<arr[a]){
         printf("%d",arr[a-1]);
     }
 }
