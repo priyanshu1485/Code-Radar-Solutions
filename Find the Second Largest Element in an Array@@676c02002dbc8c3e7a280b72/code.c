@@ -12,5 +12,5 @@ int main(){
             max=arr[i];
         }
     }
-    printf("%d",arr[a-2]);
+    printf("%d",arr[a-1]);
 }
