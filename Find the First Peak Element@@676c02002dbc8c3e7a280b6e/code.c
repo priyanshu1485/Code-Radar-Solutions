@@ -13,4 +13,7 @@ int main(){
         }
 
     }
+    if (arr[a-1]){
+        printf("%d",arr[a-1]);
+    }
 }
