@@ -8,7 +8,7 @@ int main(){
     }
     for(i=0;i<a;i++){
         for(j=i+1;j<a;j++){
-            if(arr[i]<=arr[j]){
+            if(arr[i]<=arr[j]&&arr[i]){
                 printf("Sorted");
                 return 0;
                 
