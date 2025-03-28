@@ -18,6 +18,11 @@ int main(){
         if(arr[i]>max){
             max=arr[i];
         }
+    
     }
+     for(int i=0;i<a;i++){
+        if(arr[i]==max){
+            printf("%d",c);
+        }
     printf("%d",arr[a-2]);
 }
