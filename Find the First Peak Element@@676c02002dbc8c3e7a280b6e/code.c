@@ -1,6 +1,8 @@
 #include<stdio.h>
 int main(){
     int a;
+    int b;
+    b = -1
     scanf("%d",&a);
     int arr[a];
     for (int i=0;i<a;i++){
@@ -19,6 +21,9 @@ int main(){
     if (arr[a-1]>arr[a-2]){
         printf("%d",arr[a-1]);
         return 0;
+    }
+    else{
+        printf("%d",b);
     }
     
 }
