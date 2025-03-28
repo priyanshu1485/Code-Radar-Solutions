@@ -9,6 +9,7 @@ int main(){
     }
     if (a==1){
         printf("%d",c);
+        return 0;
     }
 
 
