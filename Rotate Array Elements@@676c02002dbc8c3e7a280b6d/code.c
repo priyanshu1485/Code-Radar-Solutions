@@ -109,6 +109,6 @@ int main(){
         printf(" %d",arr[a-i]);
     }
     for(int i=0;i<a-c;i++){
-        printf(" %d",arr[i]);
+        printf(" %d\n",arr[i]);
 }
 }
