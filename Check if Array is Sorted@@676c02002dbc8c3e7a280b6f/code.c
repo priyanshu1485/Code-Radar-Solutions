@@ -13,7 +13,7 @@ int main(){
                 return 0;
                 
             }else{
-                prints("Not Sorted");
+                printf("Not Sorted");
                 return 0;
 
             }
