@@ -13,7 +13,7 @@ int main(){
         printf("%d",c);
         return 0;
     }
-    int max=Int_min;
+    int max=Int_Min;
     for(int i=0;i<a;i++){
         if(arr[i]>max){
             max=arr[i];
