@@ -13,7 +13,7 @@ int main(){
         printf("%d",c);
         return 0;
     }
-    int max=-786565;
+    int max=786565;
     for(int i=0;i<a;i++){
         if(arr[i]>max){
             max=arr[i];
