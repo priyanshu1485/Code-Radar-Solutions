@@ -8,12 +8,8 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<a;i++){
-        for(int j=i+1;j<a;j++){
-            if(arr[i]>=arr[j]){
-                sorted=0;
-                return 0;
-                
-            }
+        if(arr[i]>arr[i+1]){
+            sorted=0;
         }
     }
     if(sorted){
