@@ -6,20 +6,11 @@ int main(){
     for(int i;i<a;i++){
         scanf("%d",&arr[i]);
     }
-    for(i=0;i<a;i++){
-        for(j=i+1;j<a;j++){
-            if(arr[i]<=arr[j]&&arr[i]){
-                printf("Sorted");
-                return 0;
-                
-            }else{
-                printf("Not Sorted");
-                return 0;
-
-            }
+    for(i=1;i<a;i++){
+          if(arr[i]<arr[i-1]){
+            printf("Not Sorted");
+          }
         }
-    
+        printf("Sorted");
+        return 0;
     }
-    
-
-}
