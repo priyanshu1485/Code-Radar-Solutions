@@ -1,16 +1,25 @@
 #include<stdio.h>
 int main(){
-    int a,temp,i,j;
+    int a,temp;
     scanf("%d",&a);
     int arr[a];
+    int sorted=1;
     for(int i;i<a;i++){
         scanf("%d",&arr[i]);
     }
-    for(i=1;i<a;i++){
-          if(arr[i]<arr[i-1]){
-            printf("Not Sorted");
-          }
+    for(i=0;i<a;i++){
+        for(j=i+1;j<a;j++){
+            if(arr[i]<=arr[j]){
+                sorted=0;
+                
+            }
         }
-        printf("Sorted");
-        return 0;
     }
+    if(sorted){
+        printf("Sorted");
+    }
+    else{
+        printf("Not Sorted");
+    }
+
+}
