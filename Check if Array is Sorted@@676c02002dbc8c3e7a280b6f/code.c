@@ -12,11 +12,13 @@ int main(){
                 printf("Sorted");
                 return 0;
                 
+            }else{
+                prints("Not Sorted");
+                return 0;
+
             }
         }
-    }
-    else{
-        prints("Not Sorted");
+    
     }
     
 
