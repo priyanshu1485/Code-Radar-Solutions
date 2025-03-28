@@ -7,10 +7,7 @@ int main(){
     for(int i=0;i<a;i++){
         scanf("%d",&arr[i]);
     }
-    if (a==1){
-        printf("%d",c);
-        return 0;
-    }
+    
     
     int max=arr[0];
     for(int i=0;i<a;i++){
@@ -20,6 +17,9 @@ int main(){
     printf("%d",arr[a-2]);
     return 0;
     }
-     
+     if (a==1){
+        printf("%d",c);
+        return 0;
+    }
 }
 
