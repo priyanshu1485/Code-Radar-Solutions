@@ -7,7 +7,7 @@ int main(){
         scanf("%d\n",&arr[i]);
     }
     scanf("%d\n",&c);
-    m=c+1;
+    // m=c+1;
     for(int i=c;i>0;i--){
         printf("%d\n",arr[a-i]);
     }
