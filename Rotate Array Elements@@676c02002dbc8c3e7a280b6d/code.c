@@ -4,15 +4,14 @@ int main(){
     scanf("%d",&a);
     int arr[a];
     for(int i=0;i<a;i++){
-        scanf("%d",&arr[i]);
+        scanf("%d\n",&arr[i]);
     }
     scanf("%d",&c);
     for(int i=c;i>0;i--){
-        printf("%d",arr[a-c]);
+        printf("%d\n",arr[a-c]);
     }
     for(int i=0;i<a-c;i++){
-        printf("%d",arr[i]);
+        printf("%d\n",arr[i]);
     }
-    printf("\n");
 
 }
