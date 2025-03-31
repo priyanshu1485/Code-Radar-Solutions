@@ -11,7 +11,7 @@ int main(){
         printf("%d ",arr[a-i]);
     }
     for(int i=0;i<a-c;i++){
-        printf("\n%d ",arr[i]);
+        printf("%d ",arr[i]);
     }
 
 }
