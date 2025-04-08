@@ -5,11 +5,12 @@ void isPrime(int num){
         if(num % i==0){
             count++;
         }
-    }
-    if(count>=1){
+            if(count>=1){
         printf("%d\n",t);
     }else{
         printf("%d\n",p);
+    }
+
     }
 
 }
