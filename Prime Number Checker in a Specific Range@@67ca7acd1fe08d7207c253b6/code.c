@@ -14,10 +14,11 @@ for(int i = a; i <= b; i++) {
         
         if(isPrime == 1) {
             printf("%d ", i);
-        }else{
-            printf("No prime numbers");
         }
     }
+    else{
+            printf("No prime numbers");
+        }
     
     printf("\n");
 }
