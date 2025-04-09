@@ -16,6 +16,9 @@ for(int i = a; i <= b; i++) {
             printf("%d ", i);
         }
     }
+    if(a==b){
+        printf("No prime numbers");
+    }
     else{
             printf("No prime numbers");
         }
