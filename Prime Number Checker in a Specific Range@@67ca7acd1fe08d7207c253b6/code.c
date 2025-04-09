@@ -17,5 +17,4 @@ for(int i = a; i <= b; i++) {
     }
     
     printf("\n");
-    return 0;
 }
