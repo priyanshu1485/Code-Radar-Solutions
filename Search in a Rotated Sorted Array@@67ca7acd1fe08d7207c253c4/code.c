@@ -1,3 +1,3 @@
-void serchInRotatedArray(int arr[],int n,int target){
-    printf("%d",arr[target-1]);
+int serchInRotatedArray(int arr[],int n,int target){
+    return arr[target-1]
 }
