@@ -1,4 +1,4 @@
-int serchInRotatedArray(arr,n,target){
+int serchInRotatedArray(int arr,int n,int target){
     for(int i=0;i<n;i++){
         if(arr[i]==target){
 
