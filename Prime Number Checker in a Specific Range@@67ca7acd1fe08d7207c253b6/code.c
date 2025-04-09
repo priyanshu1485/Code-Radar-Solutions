@@ -19,9 +19,7 @@ for(int i = a; i <= b; i++) {
     if(a==b){
         printf("No prime numbers");
     }
-    else{
-            printf("No prime numbers");
-        }
+   
     
     printf("\n");
 }
