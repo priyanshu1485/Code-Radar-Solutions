@@ -4,9 +4,11 @@ void fibonacciSeries(int n){
     b=1;
     if(n==1){
         printf("%d",a);
+        break;
     }
     if(n==2){
         printf("%d",b);
+        break;
     }
     printf("%d %d ",a,b);
     for(int i=3;i<=n;i++){
