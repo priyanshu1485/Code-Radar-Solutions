@@ -4,6 +4,7 @@ void fibonacciSeries(int n){
     b=1;
     if(n==1){
         printf("%d ",a);
+        break;
     }
     // if(n==2){
     //     printf("%d",b);
