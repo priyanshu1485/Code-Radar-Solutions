@@ -1,3 +1,8 @@
-int serchInRotatedArray(int arr[],int n,int target){
-    return arr[target-1];
+void serchInRotatedArray(int arr[],int n,int target){
+    for(int i=0;i<target;i++){
+        if(arr[i]==target){
+            printf("%d",i);
+            break;
+        }
+    }
 }
