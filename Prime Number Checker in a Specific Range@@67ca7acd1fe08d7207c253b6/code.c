@@ -1,4 +1,4 @@
-void printPrimesInRange{
+void printPrimesInRange(int a,int b){
     int prime
     if(a==b){
         printf("No prime number");
